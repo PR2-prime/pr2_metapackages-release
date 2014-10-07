@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-desktop
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-desktop-full, ros-hydro-pr2-base, ros-hydro-pr2-ethercat-drivers, ros-hydro-pr2-navigation, ros-hydro-pr2-power-drivers, ros-hydro-pr2-simulator, ros-hydro-rqt-pr2-dashboard
+Description: A metapackage to aggregate several packages.
