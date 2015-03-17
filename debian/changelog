@@ -1,0 +1,25 @@
+ros-hydro-pr2-base (1.0.5-0quantal) quantal; urgency=high
+
+  * Collapsed pr2 moveit deps
+  * Updated changelogs
+  * Added dependency for warehouse_ros
+  * Contributors: TheDash
+  * Added dependency for warehouse_ros
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Tue, 17 Mar 2015 05:00:00 -0000
+
+ros-hydro-pr2-base (1.0.4-0quantal) quantal; urgency=high
+
+  * Removed dependency on warehouse_ros
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Wed, 15 Oct 2014 05:00:00 -0000
+
+ros-hydro-pr2-base (1.0.3-0quantal) quantal; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Tue, 07 Oct 2014 05:00:00 -0000
+
+

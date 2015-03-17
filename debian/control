@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-base
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-control-msgs, ros-hydro-geometry-experimental, ros-hydro-joystick-drivers, ros-hydro-mobile, ros-hydro-moveit-full-pr2, ros-hydro-perception, ros-hydro-perception-pcl, ros-hydro-pr2-apps, ros-hydro-pr2-calibration, ros-hydro-pr2-common, ros-hydro-pr2-common-actions, ros-hydro-pr2-controllers, ros-hydro-pr2-kinematics, ros-hydro-pr2-mechanism, ros-hydro-pr2-navigation, ros-hydro-ros-realtime, ros-hydro-sql-database, ros-hydro-warehouse-ros
+Description: A metapackage to aggregate several packages.
