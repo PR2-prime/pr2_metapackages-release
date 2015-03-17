@@ -1,6 +1,6 @@
 <package>
   <name>pr2_base</name>
-  <version>1.0.3</version>
+  <version>1.0.5</version>
   <description>A metapackage to aggregate several packages.</description>
   <maintainer email="dash@clearpathrobotics.com">Devon Ash</maintainer>
   <license>BSD</license>
@@ -20,8 +20,7 @@
   <!-- <run_depend>object_manipulation</run_depend> -->
 
   <!-- Replacement for pick and place functionality -->
-  <run_depend>moveit_pr2</run_depend>
-  <run_depend>moveit_full</run_depend>
+  <run_depend>moveit_full_pr2</run_depend>
 
   <run_depend>perception</run_depend>
   <run_depend>perception_pcl</run_depend>
@@ -39,7 +38,7 @@
 
   <run_depend>ros_realtime</run_depend>
   <run_depend>sql_database</run_depend>
-  <run_depend>warehouse_ros</run_depend>
+  <run_depend>warehouse_ros</run_depend> 
 
   <!-- Deprecated -->
   <!-- <run_depend>web_interface</run_depend> -->
