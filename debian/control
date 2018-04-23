@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-desktop
+Section: misc
+Priority: extra
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-desktop-full, ros-indigo-pr2-apps, ros-indigo-pr2-base, ros-indigo-pr2-ethercat-drivers, ros-indigo-pr2-navigation, ros-indigo-pr2-power-drivers, ros-indigo-pr2-simulator, ros-indigo-rqt-pr2-dashboard
+Description: A metapackage to aggregate several packages.
