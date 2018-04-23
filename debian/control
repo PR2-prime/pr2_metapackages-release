@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-base
+Section: misc
+Priority: extra
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-geometry-experimental, ros-indigo-joystick-drivers, ros-indigo-moveit-pr2, ros-indigo-perception, ros-indigo-perception-pcl, ros-indigo-pr2-apps, ros-indigo-pr2-calibration, ros-indigo-pr2-common, ros-indigo-pr2-common-actions, ros-indigo-pr2-controllers, ros-indigo-pr2-kinematics, ros-indigo-pr2-mechanism, ros-indigo-pr2-navigation, ros-indigo-ros-realtime, ros-indigo-sql-database, ros-indigo-warehouse-ros, ros-indigo-web-interface
+Description: A metapackage to aggregate several packages.
