@@ -1,3 +1,29 @@
+## pr2_metapackages (indigo) - 1.1.2-0
+
+The packages in the `pr2_metapackages` repository were released into the `indigo` distro by running `/usr/bin/bloom-release pr2_metapackages --ros-distro indigo --track indigo --new-track` on `Mon, 23 Apr 2018 06:37:05 -0000`
+
+These packages were released:
+- `pr2`
+- `pr2_base`
+- `pr2_desktop`
+
+Version of package(s) in repository `pr2_metapackages`:
+
+- upstream repository: https://github.com/PR2-prime/pr2_metapackages.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.1.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.1`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## pr2_metapackages (hydro) - 1.0.5-0
 
 The packages in the `pr2_metapackages` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --rosdistro hydro --track hydro pr2_metapackages` on `Tue, 17 Mar 2015 14:27:46 -0000`
