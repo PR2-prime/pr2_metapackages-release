@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2
+Section: misc
+Priority: extra
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-audio-common, ros-indigo-hokuyo-node, ros-indigo-joystick-drivers, ros-indigo-linux-networking, ros-indigo-microstrain-3dmgx2-imu, ros-indigo-pr2-apps, ros-indigo-pr2-base, ros-indigo-pr2-ethercat-drivers, ros-indigo-pr2-navigation-apps, ros-indigo-pr2-power-drivers, ros-indigo-pr2-robot, ros-indigo-prosilica-camera, ros-indigo-wge100-driver, ros-indigo-wifi-ddwrt
+Description: A metapackage to aggregate several packages.
