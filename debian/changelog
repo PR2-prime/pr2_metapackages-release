@@ -1,0 +1,37 @@
+ros-kinetic-pr2 (1.1.3-0xenial) xenial; urgency=high
+
+  * fixed dependencies on two packages (hokuyo_node and geometry_experimental) whose names have changed (urg_node and geometry2)
+  * Contributors: David Feil-Seifer
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Sat, 30 Mar 2019 07:00:00 -0000
+
+ros-kinetic-pr2 (1.1.2-0xenial) xenial; urgency=high
+
+  * fixed spelling of hokuyo
+  * Contributors: David Feil-Seifer
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Sun, 22 Apr 2018 07:00:00 -0000
+
+ros-kinetic-pr2 (1.1.1-0xenial) xenial; urgency=high
+
+  * updated changelogs
+  * updated maintainer, updated changelog
+  * pr2: changed dependencies on driver metapackages (which no longer exist) to instead depend on particular driver packages (which do)
+  * updated to remove deprecated package pr2_object_manipulation and replace with moveit_pr2 and laser_drivers and replace with hokoyo_node
+  * pr2_metapackages: removed dependencies on deprecated packages:
+    pr2_gui, camera_drivers, mobile, object_manipulation
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Sun, 22 Apr 2018 07:00:00 -0000
+
+ros-kinetic-pr2 (1.1.0-0xenial) xenial; urgency=high
+
+  * 1.0.1
+  * updated maintainers
+  * Added pr2_apps to dependencies
+  * Enabled metapackages; removed CATKIN_IGNORE
+  * Added pr2, pr2_base, and pr2_desktop metapackages
+  * Contributors: David Feil-Seifer, TheDash
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Sat, 17 Mar 2018 07:00:00 -0000
+
+

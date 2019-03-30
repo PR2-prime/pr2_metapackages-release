@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2
+Section: misc
+Priority: extra
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-audio-common, ros-kinetic-joystick-drivers, ros-kinetic-linux-networking, ros-kinetic-microstrain-3dmgx2-imu, ros-kinetic-pr2-apps, ros-kinetic-pr2-base, ros-kinetic-pr2-ethercat-drivers, ros-kinetic-pr2-navigation-apps, ros-kinetic-pr2-power-drivers, ros-kinetic-pr2-robot, ros-kinetic-prosilica-camera, ros-kinetic-urg-node, ros-kinetic-wge100-driver, ros-kinetic-wifi-ddwrt
+Description: A metapackage to aggregate several packages.
