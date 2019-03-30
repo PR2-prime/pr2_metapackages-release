@@ -1,3 +1,29 @@
+## pr2_metapackages (kinetic) - 1.1.3-0
+
+The packages in the `pr2_metapackages` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --ros-distro kinetic pr2_metapackages --edit` on `Sat, 30 Mar 2019 16:38:15 -0000`
+
+These packages were released:
+- `pr2`
+- `pr2_base`
+- `pr2_desktop`
+
+Version of package(s) in repository `pr2_metapackages`:
+
+- upstream repository: https://github.com/PR2-prime/pr2_metapackages.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.1.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.7.2`
+- catkin_pkg version: `0.4.10`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.7.2`
+- vcstools version: `0.1.40`
+
+
 ## pr2_metapackages (indigo) - 1.1.2-0
 
 The packages in the `pr2_metapackages` repository were released into the `indigo` distro by running `/usr/bin/bloom-release pr2_metapackages --ros-distro indigo --track indigo --new-track` on `Mon, 23 Apr 2018 06:37:05 -0000`
