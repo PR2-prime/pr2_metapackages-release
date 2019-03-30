@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2-base
+Section: misc
+Priority: extra
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-geometry2, ros-kinetic-joystick-drivers, ros-kinetic-moveit-pr2, ros-kinetic-perception, ros-kinetic-perception-pcl, ros-kinetic-pr2-apps, ros-kinetic-pr2-calibration, ros-kinetic-pr2-common, ros-kinetic-pr2-common-actions, ros-kinetic-pr2-controllers, ros-kinetic-pr2-kinematics, ros-kinetic-pr2-mechanism, ros-kinetic-pr2-navigation, ros-kinetic-ros-realtime, ros-kinetic-warehouse-ros, ros-kinetic-web-interface
+Description: A metapackage to aggregate several packages.
