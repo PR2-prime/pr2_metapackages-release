@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2-desktop
+Section: misc
+Priority: extra
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-desktop-full, ros-kinetic-pr2-apps, ros-kinetic-pr2-base, ros-kinetic-pr2-ethercat-drivers, ros-kinetic-pr2-navigation, ros-kinetic-pr2-power-drivers, ros-kinetic-pr2-simulator, ros-kinetic-rqt-pr2-dashboard
+Description: A metapackage to aggregate several packages.
