@@ -1,6 +1,6 @@
 <package>
   <name>pr2_base</name>
-  <version>1.1.2</version>
+  <version>1.1.3</version>
   <description>A metapackage to aggregate several packages.</description>
   <maintainer email="dave@cse.unr.edu">Dave Feil-Seifer</maintainer>
   <license>BSD</license>
@@ -11,7 +11,7 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <!--<run_depend>control</run_depend>-->
-  <run_depend>geometry_experimental</run_depend>
+  <run_depend>geometry2</run_depend>
   <run_depend>joystick_drivers</run_depend>
   <!--<run_depend>mobile</run_depend>-->
   <!--<run_depend>object_manipulation</run_depend>-->
@@ -27,7 +27,7 @@
   <run_depend>pr2_navigation</run_depend>
   <run_depend>moveit_pr2</run_depend>
   <run_depend>ros_realtime</run_depend>
-  <run_depend>sql_database</run_depend>
+  <!--<run_depend>sql_database</run_depend>-->
   <run_depend>warehouse_ros</run_depend>
   <run_depend>web_interface</run_depend>
 

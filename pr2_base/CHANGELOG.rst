@@ -2,6 +2,12 @@
 Changelog for package pr2_base
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.3 (2019-03-30)
+------------------
+* removed sql_database package
+* fixed dependencies on two packages (hokuyo_node and geometry_experimental) whose names have changed (urg_node and geometry2)
+* Contributors: David Feil-Seifer
+
 1.1.2 (2018-04-22)
 ------------------
 
